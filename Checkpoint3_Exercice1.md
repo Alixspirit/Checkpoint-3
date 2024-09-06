@@ -44,8 +44,12 @@
 * Dans password must meet complexity requirements, selectionner enabled
 * Dans relax minimum password length limits, selectionner disabled
 * Dans store passwords using reversible encryption, selectionner enabled
-* 
+* ![365128348-a577b738-47cb-432f-93b5-cb11fc03767f](https://github.com/user-attachments/assets/8f4006cf-e41b-40f5-938c-b0f8a87fc061)
 
+# Lecteurs reseaux
+
+# Q.1.3.1
+* Faire un clique droit sur TSSR.LAN et cliquer sur create a gpo in this domain and link it here. La nommer drive-mount.
 
 
 
