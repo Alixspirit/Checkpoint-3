@@ -47,7 +47,9 @@
 * ![365106201-10181d71-d0cd-4fcc-84e6-593ad429d241](https://github.com/user-attachments/assets/c31551d2-204b-41e5-861a-5ca22f2b5d12)
 
 # Q.1.2.3
-* Créer une GPO nommée strategie de mots de passe et la lier a LabUsers. Clique droit sur LabUsers et cliquer sur edit.
+
+* Taper dans la barre de recherche du menu Demarrer : gpedit.msc et cliquer sur l'application gpedit.msc
+* Créer une GPO nommée Strategie de mots de passe et la lier a LabUsers. Clique droit sur LabUsers et cliquer sur Edit.
 * ![365123686-e5feed14-d390-4f9c-b79f-31e07193a097](https://github.com/user-attachments/assets/c8136dca-2901-4c54-af2b-93a4b40dcdbd)
 * La fenetre group policy management editor s'ouvre.
 * Aller dans computer configuration, windows settings, security settings, account policies, password policy.
