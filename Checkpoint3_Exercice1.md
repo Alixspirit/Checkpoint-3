@@ -27,8 +27,7 @@
 
 # Q.1.1.4
 
-* Clique droit sur le compte kelly.rhameur et cliquer sur rename. Ajouter -ARCHIVE a la fin du nom.
-* ![365095009-b1bbda9b-7f78-44d0-9728-c84b1c96dbc2](https://github.com/user-attachments/assets/b46539a9-4a09-4991-ba5b-9ae7dc9d13f0)
+* Dans Active Directory Users and Computers, faire un clique droit sur le dossier DeactivatedUsers et cliquer sur Rename. Ajouter -ARCHIVE a la fin du nom.
 
 # Partie 2 : Restriction utilisateurs
 
