@@ -14,10 +14,7 @@
 * Faire un clique droit sur l'utilisateur Kelly Rhameur et selectionner Disable Account.
 * Faire un clique droit sur l'utilisateur Kelly Rhameur et selectionner Move.
 * Cliquer sur l'OU DeactivatedUsers et cliquer sur OK.
-
-
-
-
+* ![365088466-ea162d45-66cf-4bdf-9d8e-6d6fdcec167b](https://github.com/user-attachments/assets/ddfe6895-4342-4771-b5ce-fecef6609977)
 
 # Q.1.1.3
 * Aller dans le dossier DirectionDesRessourcesHumaines, clique droit sur le groupe GrpUsersDirectionDesRessourcesHumaines, aller dans propriété, cliquer sur add et ajouter le compte lionel.lemarchand, cliquer sur remove et sur le compte kelly.rhameur pour le supprimer.
