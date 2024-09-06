@@ -27,6 +27,9 @@
 
 # Q.1.2.1 
 * Clique droit sur l'utilisateur gabriel.gulh, cliquer sur propriété, aller dans l'onglet account, cliquer sur logon hours et autoriser la connexion du lundi au vendredi de 7h a 17h.
+* ![365104634-114ab4a0-8da4-43e5-a697-fc7a2900676f](https://github.com/user-attachments/assets/203b9d5a-36fc-47f1-897d-614a8785d00d)
+
+# Q.1.2.2
 * 
 
 
