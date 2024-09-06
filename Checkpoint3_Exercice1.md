@@ -12,6 +12,7 @@
 * Clique droit sur TSSR.LAN, aller dans New et cliquer sur organizational unit.
 * ![365084842-34be8742-e571-411d-819d-0b9d74a461ca](https://github.com/user-attachments/assets/7f875c95-1eac-4ac5-ba0c-915c8dfdd65c)
 * Nommer l'unité d'organisation DeactivatedUsers, faire un clique droit sur le compte de kelly.rhameur, aller dans all tasks et cliquer sur move. Cliquer sur l'ou DeactivatedUsers et sur ok.
-* 
+* ![365088466-ea162d45-66cf-4bdf-9d8e-6d6fdcec167b](https://github.com/user-attachments/assets/e299eb5e-ea96-41a9-af28-1152a8c3f729)
+* Faire un clique droit sur le compte de kelly.rhameur et cliquer sur disable account.
 
-
+# Q.1.1.3
