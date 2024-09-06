@@ -36,6 +36,7 @@
 # Q.1.2.3
 * Créer une GPO nommée strategie de mots de passe et la lier a LabUsers. Clique droit sur LabUsers et cliquer sur edit.
 * ![365123686-e5feed14-d390-4f9c-b79f-31e07193a097](https://github.com/user-attachments/assets/c8136dca-2901-4c54-af2b-93a4b40dcdbd)
+* La fenetre group policy management editor s'ouvre.
 * Aller dans computer configuration, windows settings, security settings, account policies, password policy.
 * Dans maximum password age, mettre 15 jours
 * Dans minimum password age, mettre 1 jour
@@ -50,6 +51,9 @@
 
 # Q.1.3.1
 * Faire un clique droit sur TSSR.LAN et cliquer sur create a gpo in this domain and link it here. La nommer drive-mount.
+* Faire un clique droit sur la gpo drive-mount et cliquer sur edit.
+* La fenetre group policy management editor s'ouvre.
+* Aller dans user configuration, preferences, windows settings, drive maps.
 
 
 
