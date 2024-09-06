@@ -1,6 +1,7 @@
 # Partie 1 : Gestion des utilisateurs
 
 # Q.1.1.1 :
+
 * Dans le gestionnaire de serveurs, cliquer sur tools et selectionner Active Directory Users and Computers.
 * Aller dans TSSR.LAN, LabUsers et selectionner DirectionDesRessourcesHumaines.
 * Faire un clique droit sur l'utilisateur Kelly.Rhameur et selectionner Copy
@@ -8,6 +9,7 @@
 * ![365169143-716ad4b7-da8b-489f-8b35-a9988e0c401a](https://github.com/user-attachments/assets/2fff09e2-e4ee-4f2e-916a-56e0c0381c30)
 
 # Q.1.1.2
+
 * Dans Active Directory Users and Computers, faire un clique droit sur TSSR.LAN, aller dans New et selectionner Organizational Unit
 * Entrer le nom de l'OU : DeactivatedUsers et décocher la case : Protect container from accidental deletion. Cliquer sur OK.
 * ![365176634-fc234c2f-2698-4dbc-b6e5-d2869001393f](https://github.com/user-attachments/assets/b9e82483-a643-4a0a-9d91-1a80cfb49a53)
@@ -17,7 +19,10 @@
 * ![365088466-ea162d45-66cf-4bdf-9d8e-6d6fdcec167b](https://github.com/user-attachments/assets/ddfe6895-4342-4771-b5ce-fecef6609977)
 
 # Q.1.1.3
-* Aller dans le dossier DirectionDesRessourcesHumaines, clique droit sur le groupe GrpUsersDirectionDesRessourcesHumaines, aller dans propriété, cliquer sur add et ajouter le compte lionel.lemarchand, cliquer sur remove et sur le compte kelly.rhameur pour le supprimer.
+
+* Dans Active Directory Users and Computers, aller dans LabUsers et faire un clique droit sur le dossier DirectionDesRessourcesHumaines et cliquer sur Propriété.
+* Cliquer sur Add et ajouter le compte lionel.lemarchand et cliquer sur OK.
+* Selectionner l'utilisateur Kelly rhameur et cliquer sur remove.
 * ![365090712-4b501dbd-03dc-41da-8288-f20264774324](https://github.com/user-attachments/assets/249b845d-e70c-4841-b680-89309317b8a1)
 
 # Q.1.1.4
