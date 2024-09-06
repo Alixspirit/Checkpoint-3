@@ -10,8 +10,10 @@
 # Q.1.1.2
 * Dans Active Directory Users and Computers, faire un clique droit sur TSSR.LAN, aller dans New et selectionner Organizational Unit
 * Entrer le nom de l'OU : DeactivatedUsers et décocher la case : Protect container from accidental deletion. Cliquer sur OK.
-
-
+* ![365176634-fc234c2f-2698-4dbc-b6e5-d2869001393f](https://github.com/user-attachments/assets/b9e82483-a643-4a0a-9d91-1a80cfb49a53)
+* Faire un clique droit sur l'utilisateur Kelly Rhameur et selectionner Disable Account.
+* Faire un clique droit sur l'utilisateur Kelly Rhameur et selectionner Move.
+* Cliquer sur l'OU DeactivatedUsers et cliquer sur OK.
 
 
 
