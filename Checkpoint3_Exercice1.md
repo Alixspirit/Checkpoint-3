@@ -67,20 +67,7 @@
 * Faire un clique droit sur la GPO Drive-Mount et cliquer sur Edit. La fenetre Group Policy Management Editor s'ouvre.
 * Aller dans User Configuration, Preferences, Windows Settings, Drive Maps.
 * Faire un clique droit sur drive maps et cliquer sur new. Une fenetre New Drive Properties s'ouvre.
-*
-*
-*
-*
-* 
-* Dans action, selectionner update
-* Dans drive letter, selectionner existing et le lecteur E
-* Cliquer sur appliquer et sur ok
-* Faire la meme chose pour le lecteur F
-* ![365165937-29b262b9-a0bc-4cd8-987c-cbee4cc8ed49](https://github.com/user-attachments/assets/4f52c58d-cdc9-44b3-a189-85826638e740)
-
-
-
-
+* ![365208155-db9b56a1-8852-4977-afba-37955c827fb7](https://github.com/user-attachments/assets/f533742d-fe87-47e0-ba8c-e751cf8d5dc5)
 
 
 
