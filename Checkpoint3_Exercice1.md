@@ -28,11 +28,15 @@
 # Q.1.1.4
 
 * Dans Active Directory Users and Computers, faire un clique droit sur le dossier DeactivatedUsers et cliquer sur Rename. Ajouter -ARCHIVE a la fin du nom.
+* ![365190954-ed62821a-5121-4736-ab16-d6ebfaf1e219](https://github.com/user-attachments/assets/056964fa-0673-4151-ba83-5fa4467339b1)
 
 # Partie 2 : Restriction utilisateurs
 
 # Q.1.2.1 
-* Clique droit sur l'utilisateur gabriel.gulh, cliquer sur propriété, aller dans l'onglet account, cliquer sur logon hours et autoriser la connexion du lundi au vendredi de 7h a 17h.
+
+* Dans Active Directory Users and Computers, aller dans le dossier DirectionFinancière puis aller dans le dossier Finance.
+* Faire un clique droit sur l'utilisateur Gabriel Gulh et cliquer sur Propriété.
+* Aller dans l'onglet Account, cliquer sur Logon Hours et autoriser la connexion du lundi au vendredi de 7h a 17h.
 * ![365104634-114ab4a0-8da4-43e5-a697-fc7a2900676f](https://github.com/user-attachments/assets/203b9d5a-36fc-47f1-897d-614a8785d00d)
 
 # Q.1.2.2
