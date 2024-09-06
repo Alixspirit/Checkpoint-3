@@ -9,7 +9,9 @@
 * ![365082429-773bb3b0-b65e-4199-b125-cc1be9897a7a](https://github.com/user-attachments/assets/395bbfcb-4888-4540-b530-47f7403e998b)
 
 # Q.1.1.2
-* Clique droit sur 
+* Clique droit sur TSSR.LAN, aller dans New et cliquer sur organizational unit.
+* ![365084842-34be8742-e571-411d-819d-0b9d74a461ca](https://github.com/user-attachments/assets/7f875c95-1eac-4ac5-ba0c-915c8dfdd65c)
+* Nommer l'unité d'organisation DeactivatedUsers, faire un clique droit sur le compte de kelly.rhameur, aller dans all tasks et cliquer sur move. Cliquer sur l'ou DeactivatedUsers et sur ok.
 * 
 
 
