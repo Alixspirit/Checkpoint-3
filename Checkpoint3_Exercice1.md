@@ -1,9 +1,11 @@
 # Partie 1 : Gestion des utilisateurs
 
 # Q.1.1.1 :
-* 
-
-
+* Dans le gestionnaire de serveurs, cliquer sur tools et selectionner Active Directory Users and Computers.
+* Aller dans TSSR.LAN, LabUsers et selectionner DirectionDesRessourcesHumaines.
+* Faire un clique droit sur l'utilisateur Kelly.Rhameur et selectionner Copy
+* Entrer le nom et le prénom : Lionel Lemarchand et le mot de passe : @!90Xo/Yl67#. Cocher la case : User must change password at next logon. Puis cliquer sur next et finish.
+* ![365169143-716ad4b7-da8b-489f-8b35-a9988e0c401a](https://github.com/user-attachments/assets/2fff09e2-e4ee-4f2e-916a-56e0c0381c30)
 
 # Q.1.1.2
 * Clique droit sur TSSR.LAN, aller dans New et cliquer sur organizational unit.
