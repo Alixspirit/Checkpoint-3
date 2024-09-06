@@ -35,9 +35,16 @@
 
 # Q.1.2.3
 * Créer une GPO nommée strategie de mots de passe et la lier a LabUsers. Clique droit sur LabUsers et cliquer sur edit.
-*
+* ![365123686-e5feed14-d390-4f9c-b79f-31e07193a097](https://github.com/user-attachments/assets/c8136dca-2901-4c54-af2b-93a4b40dcdbd)
 * Aller dans computer configuration, windows settings, security settings, account policies, password policy.
-
+* Dans maximum password age, mettre 15 jours
+* Dans minimum password age, mettre 1 jour
+* Dans minimum password length, mettre 12 caracteres
+* Dans minimum password length audit, mettre 12 caracteres
+* Dans password must meet complexity requirements, selectionner enabled
+* Dans relax minimum password length limits, selectionner disabled
+* Dans store passwords using reversible encryption, selectionner enabled
+* 
 
 
 
