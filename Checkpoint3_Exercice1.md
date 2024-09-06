@@ -4,7 +4,7 @@
 
 * Dans le gestionnaire de serveurs, cliquer sur tools et selectionner Active Directory Users and Computers.
 * Aller dans TSSR.LAN, LabUsers et selectionner DirectionDesRessourcesHumaines.
-* Faire un clique droit sur l'utilisateur Kelly.Rhameur et selectionner Copy
+* Faire un clique droit sur l'utilisateur Kelly.Rhameur et selectionner Copy.
 * Entrer le nom et le prénom : Lionel Lemarchand et le mot de passe : @!90Xo/Yl67#. Cocher la case : User must change password at next logon. Puis cliquer sur next et finish.
 * ![365169143-716ad4b7-da8b-489f-8b35-a9988e0c401a](https://github.com/user-attachments/assets/2fff09e2-e4ee-4f2e-916a-56e0c0381c30)
 
@@ -48,23 +48,25 @@
 
 # Q.1.2.3
 
-* Taper dans la barre de recherche du menu Demarrer : gpedit.msc et cliquer sur l'application gpedit.msc
-* Créer une GPO nommée Strategie de mots de passe et la lier a LabUsers. Clique droit sur LabUsers et cliquer sur Edit.
+* Dans le Gestionnaire de Serveurs, cliquer sur Tools et selectionner Group Policy Management.
+* Faire un clique droit sur LabUsers et cliquer sur Create a GPO in this domain, and Link it here.
+* Entrer le nom de la GPO : Strategie de mots de passe et cliquer sur OK. Lier la GPO a l'OU LabUsers.
 * ![365123686-e5feed14-d390-4f9c-b79f-31e07193a097](https://github.com/user-attachments/assets/c8136dca-2901-4c54-af2b-93a4b40dcdbd)
-* La fenetre group policy management editor s'ouvre.
-* Aller dans computer configuration, windows settings, security settings, account policies, password policy.
-* Dans maximum password age, mettre 15 jours
-* Dans minimum password age, mettre 1 jour
-* Dans minimum password length, mettre 12 caracteres
-* Dans minimum password length audit, mettre 12 caracteres
-* Dans password must meet complexity requirements, selectionner enabled
-* Dans relax minimum password length limits, selectionner disabled
-* Dans store passwords using reversible encryption, selectionner enabled
+* La fenetre Group Policy Management Editor s'ouvre.
+* Aller dans Computer Configuration, Windows Settings, Security Settings, Account Policies, Password Policy.
+* Dans Maximum Password Age, mettre 15 jours
+* Dans Minimum Password Age, mettre 1 jour
+* Dans Minimum Password Length, mettre 12 caracteres
+* Dans Minimum Password Length Audit, mettre 12 caracteres
+* Dans Password Must Meet Complexity Requirements, selectionner enabled
+* Dans Relax Minimum Password Length Limits, selectionner disabled
+* Dans Store Passwords Using Reversible Encryption, selectionner enabled
 * ![365128348-a577b738-47cb-432f-93b5-cb11fc03767f](https://github.com/user-attachments/assets/8f4006cf-e41b-40f5-938c-b0f8a87fc061)
 
 # Lecteurs reseaux
 
 # Q.1.3.1
+
 * Faire un clique droit sur TSSR.LAN et cliquer sur create a gpo in this domain and link it here. La nommer drive-mount.
 * Faire un clique droit sur la gpo drive-mount et cliquer sur edit.
 * La fenetre group policy management editor s'ouvre.
