@@ -66,9 +66,12 @@
 * Faire un clique droit sur TSSR.LAN et cliquer sur Create a GPO in this domain and Link it here. Entrer le nom de la GPO : Drive-Mount.
 * Faire un clique droit sur la GPO Drive-Mount et cliquer sur Edit. La fenetre Group Policy Management Editor s'ouvre.
 * Aller dans User Configuration, Preferences, Windows Settings, Drive Maps.
-* ![365160853-a0e62d88-3570-45e0-8e08-6fd01c8603e2](https://github.com/user-attachments/assets/b105189b-8340-463c-b4eb-495752e652dd)
-* Faire un clique droit sur drive maps et cliquer sur new.
-* Une fenetre new drive properties s'ouvre.
+* Faire un clique droit sur drive maps et cliquer sur new. Une fenetre New Drive Properties s'ouvre.
+*
+*
+*
+*
+* 
 * Dans action, selectionner update
 * Dans drive letter, selectionner existing et le lecteur E
 * Cliquer sur appliquer et sur ok
