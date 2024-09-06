@@ -30,8 +30,13 @@
 * ![365104634-114ab4a0-8da4-43e5-a697-fc7a2900676f](https://github.com/user-attachments/assets/203b9d5a-36fc-47f1-897d-614a8785d00d)
 
 # Q.1.2.2
-* 
+* Clique droit sur l'utilisateur gabriel.gulh, cliquer sur propriété, aller dans l'onglet account, cliquer sur log on to, selectionner the following computers et mettre CLIENT2.
+* ![365106201-10181d71-d0cd-4fcc-84e6-593ad429d241](https://github.com/user-attachments/assets/c31551d2-204b-41e5-861a-5ca22f2b5d12)
 
+# Q.1.2.3
+* Créer une GPO nommée strategie de mots de passe et la lier a LabUsers. Clique droit sur LabUsers et cliquer sur edit.
+*
+* Aller dans computer configuration, windows settings, security settings, account policies, password policy.
 
 
 
