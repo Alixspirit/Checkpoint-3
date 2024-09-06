@@ -16,3 +16,9 @@
 * Faire un clique droit sur le compte de kelly.rhameur et cliquer sur disable account.
 
 # Q.1.1.3
+* Aller dans le dossier DirectionDesRessourcesHumaines, clique droit sur le groupe GrpUsersDirectionDesRessourcesHumaines, aller dans propriété, cliquer sur add et ajouter le compte lionel.lemarchand, cliquer sur remove et sur le compte kelly.rhameur pour le supprimer.
+* ![365090712-4b501dbd-03dc-41da-8288-f20264774324](https://github.com/user-attachments/assets/249b845d-e70c-4841-b680-89309317b8a1)
+
+# Q.1.1.4
+
+* 
