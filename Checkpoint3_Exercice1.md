@@ -68,6 +68,5 @@
 * Aller dans User Configuration, Preferences, Windows Settings, Drive Maps.
 * Faire un clique droit sur drive maps et cliquer sur new. Une fenetre New Drive Properties s'ouvre.
 * ![365208155-db9b56a1-8852-4977-afba-37955c827fb7](https://github.com/user-attachments/assets/f533742d-fe87-47e0-ba8c-e751cf8d5dc5)
-
-
+* Faire un clique droit sur Drive Maps et cliquer sur New et selectionner Mapped Drive et ajouter les lecteurs E et F.
 
