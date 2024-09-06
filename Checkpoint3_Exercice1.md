@@ -20,5 +20,22 @@
 * ![365090712-4b501dbd-03dc-41da-8288-f20264774324](https://github.com/user-attachments/assets/249b845d-e70c-4841-b680-89309317b8a1)
 
 # Q.1.1.4
+* Clique droit sur le compte kelly.rhameur et cliquer sur rename. Ajouter -ARCHIVE a la fin du nom.
+* ![365095009-b1bbda9b-7f78-44d0-9728-c84b1c96dbc2](https://github.com/user-attachments/assets/b46539a9-4a09-4991-ba5b-9ae7dc9d13f0)
 
+# Partie 2 : Restriction utilisateurs
+
+# Q.1.2.1 
+* Clique droit sur l'utilisateur gabriel.gulh, cliquer sur propriété, aller dans l'onglet account, cliquer sur logon hours et autoriser la connexion du lundi au vendredi de 7h a 17h.
 * 
+
+
+
+
+
+
+
+
+
+
+
