@@ -55,23 +55,17 @@
 * ![365123686-e5feed14-d390-4f9c-b79f-31e07193a097](https://github.com/user-attachments/assets/c8136dca-2901-4c54-af2b-93a4b40dcdbd)
 * La fenetre Group Policy Management Editor s'ouvre.
 * Aller dans Computer Configuration, Windows Settings, Security Settings, Account Policies, Password Policy.
-* Dans Maximum Password Age, mettre 15 jours
-* Dans Minimum Password Age, mettre 1 jour
-* Dans Minimum Password Length, mettre 12 caracteres
-* Dans Minimum Password Length Audit, mettre 12 caracteres
-* Dans Password Must Meet Complexity Requirements, selectionner enabled
-* Dans Relax Minimum Password Length Limits, selectionner disabled
-* Dans Store Passwords Using Reversible Encryption, selectionner enabled
+* Mettre la configuration suivante :
 * ![365128348-a577b738-47cb-432f-93b5-cb11fc03767f](https://github.com/user-attachments/assets/8f4006cf-e41b-40f5-938c-b0f8a87fc061)
 
 # Lecteurs reseaux
 
 # Q.1.3.1
 
-* Faire un clique droit sur TSSR.LAN et cliquer sur create a gpo in this domain and link it here. La nommer drive-mount.
-* Faire un clique droit sur la gpo drive-mount et cliquer sur edit.
-* La fenetre group policy management editor s'ouvre.
-* Aller dans user configuration, preferences, windows settings, drive maps.
+* Dans le Gestionnaire de serveurs, cliquer sur Tools et selectionner Group Policy Management.
+* Faire un clique droit sur TSSR.LAN et cliquer sur Create a GPO in this domain and Link it here. Entrer le nom de la GPO : Drive-Mount.
+* Faire un clique droit sur la GPO Drive-Mount et cliquer sur Edit. La fenetre Group Policy Management Editor s'ouvre.
+* Aller dans User Configuration, Preferences, Windows Settings, Drive Maps.
 * ![365160853-a0e62d88-3570-45e0-8e08-6fd01c8603e2](https://github.com/user-attachments/assets/b105189b-8340-463c-b4eb-495752e652dd)
 * Faire un clique droit sur drive maps et cliquer sur new.
 * Une fenetre new drive properties s'ouvre.
