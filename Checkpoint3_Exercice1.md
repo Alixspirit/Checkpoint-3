@@ -51,6 +51,7 @@
 * Dans le Gestionnaire de Serveurs, cliquer sur Tools et selectionner Group Policy Management.
 * Faire un clique droit sur LabUsers et cliquer sur Create a GPO in this domain, and Link it here.
 * Entrer le nom de la GPO : Strategie de mots de passe et cliquer sur OK. Lier la GPO a l'OU LabUsers.
+* Faire un clique droit sur LabUsers et cliquer sur Edit.
 * ![365123686-e5feed14-d390-4f9c-b79f-31e07193a097](https://github.com/user-attachments/assets/c8136dca-2901-4c54-af2b-93a4b40dcdbd)
 * La fenetre Group Policy Management Editor s'ouvre.
 * Aller dans Computer Configuration, Windows Settings, Security Settings, Account Policies, Password Policy.
