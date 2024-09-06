@@ -61,7 +61,8 @@
 * Dans drive letter, selectionner existing et le lecteur E
 * Cliquer sur appliquer et sur ok
 * Faire la meme chose pour le lecteur F
-* 
+* ![365165937-29b262b9-a0bc-4cd8-987c-cbee4cc8ed49](https://github.com/user-attachments/assets/4f52c58d-cdc9-44b3-a189-85826638e740)
+
 
 
 
