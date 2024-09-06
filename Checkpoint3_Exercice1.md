@@ -9,6 +9,7 @@
 * ![365082429-773bb3b0-b65e-4199-b125-cc1be9897a7a](https://github.com/user-attachments/assets/395bbfcb-4888-4540-b530-47f7403e998b)
 
 # Q.1.1.2
-
+* Clique droit sur 
+* 
 
 
