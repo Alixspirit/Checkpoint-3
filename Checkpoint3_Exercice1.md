@@ -8,17 +8,21 @@
 * ![365169143-716ad4b7-da8b-489f-8b35-a9988e0c401a](https://github.com/user-attachments/assets/2fff09e2-e4ee-4f2e-916a-56e0c0381c30)
 
 # Q.1.1.2
-* Clique droit sur TSSR.LAN, aller dans New et cliquer sur organizational unit.
-* ![365084842-34be8742-e571-411d-819d-0b9d74a461ca](https://github.com/user-attachments/assets/7f875c95-1eac-4ac5-ba0c-915c8dfdd65c)
-* Nommer l'unité d'organisation DeactivatedUsers, faire un clique droit sur le compte de kelly.rhameur, aller dans all tasks et cliquer sur move. Cliquer sur l'ou DeactivatedUsers et sur ok.
-* ![365088466-ea162d45-66cf-4bdf-9d8e-6d6fdcec167b](https://github.com/user-attachments/assets/e299eb5e-ea96-41a9-af28-1152a8c3f729)
-* Faire un clique droit sur le compte de kelly.rhameur et cliquer sur disable account.
+* Dans Active Directory Users and Computers, faire un clique droit sur TSSR.LAN, aller dans New et selectionner Organizational Unit
+* Entrer le nom de l'OU : DeactivatedUsers et décocher la case : Protect container from accidental deletion. Cliquer sur OK.
+
+
+
+
+
+
 
 # Q.1.1.3
 * Aller dans le dossier DirectionDesRessourcesHumaines, clique droit sur le groupe GrpUsersDirectionDesRessourcesHumaines, aller dans propriété, cliquer sur add et ajouter le compte lionel.lemarchand, cliquer sur remove et sur le compte kelly.rhameur pour le supprimer.
 * ![365090712-4b501dbd-03dc-41da-8288-f20264774324](https://github.com/user-attachments/assets/249b845d-e70c-4841-b680-89309317b8a1)
 
 # Q.1.1.4
+
 * Clique droit sur le compte kelly.rhameur et cliquer sur rename. Ajouter -ARCHIVE a la fin du nom.
 * ![365095009-b1bbda9b-7f78-44d0-9728-c84b1c96dbc2](https://github.com/user-attachments/assets/b46539a9-4a09-4991-ba5b-9ae7dc9d13f0)
 
