@@ -23,7 +23,13 @@
 # Q.2.2.2
 
 * En root, dans le fichier /etc/ssh/sshd_config.d/local.conf, ajouter la ligne : AllowUsers julie
-* 
+* ![365371691-c26a0d87-2f90-457d-9b74-20a28f13858d](https://github.com/user-attachments/assets/abf41046-c3e4-4c75-a8ad-29a1678b8869)
+
+# Q.2.2.3
+
+* En root, dans le fichier /etc/ssh/sshd_config.d/local.conf, ajouter les ligne :
+* PasswordAuthentication no
+* ChallengeResponseAuthentication no
 
 
 
