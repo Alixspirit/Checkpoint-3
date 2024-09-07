@@ -16,3 +16,6 @@
 
 # Q.2.2.1
 
+* Configurer le fichier /etc/ssh/sshd_config.d/local.conf
+* A la ligne PermitRootLogin, mettre no et ajouter la ligne DenyUsers root
+* 
