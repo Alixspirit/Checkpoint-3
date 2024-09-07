@@ -3,8 +3,7 @@
 # Q.2.1.1
 
 * Passer en root avec la commande su -.
-* Créer un compte personnel nommé julie avec la commande : adduser julie
-* Choisir un mot de passe
+* Créer un compte personnel nommé julie avec la commande : adduser julie et choisir un mot de passe.
 * ![365214369-7845d708-39c4-48fd-9b57-2f2e42686ec1](https://github.com/user-attachments/assets/c5b15ea5-4eeb-4f9d-bce6-66f4519ba4e6)
 
 # Q.2.1.2
@@ -36,9 +35,12 @@
 
 # Q.2.3.1 
 
-* Les systemes de fichier montés sont tmpfs. 
+* Le systeme de fichier monté est tmpfs. 
+* ![365374206-fd2afe44-b52a-4668-937d-e2127782ba48](https://github.com/user-attachments/assets/091e2803-c117-4ea1-b035-2843f39082e2)
 
+# Q.2.3.2
 
+* 
 
 
 
