@@ -16,6 +16,25 @@
 
 # Q.2.2.1
 
-* Configurer le fichier /etc/ssh/sshd_config.d/local.conf
+* Passer en root : su - et configurer le fichier local.conf avec la commande : nano /etc/ssh/sshd_config.d/local.conf
 * A la ligne PermitRootLogin, mettre no et ajouter la ligne DenyUsers root
+* ![365370073-7bdbc47f-75b3-480b-a622-46def35cb0db](https://github.com/user-attachments/assets/7dc94078-479f-4eca-917b-a68e3e74ff16)
+
+# Q.2.2.2
+
+* En root, dans le fichier /etc/ssh/sshd_config.d/local.conf, ajouter la ligne : AllowUsers julie
 * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
