@@ -35,13 +35,18 @@
 
 # Q.2.3.1 
 
-* Le systeme de fichier monté est tmpfs. 
+* Les systemes de fichiers montés sont tmpfs, udev, /dev/md0p1 et /dev/mapper/cp3--vg-root.
 * ![365374206-fd2afe44-b52a-4668-937d-e2127782ba48](https://github.com/user-attachments/assets/091e2803-c117-4ea1-b035-2843f39082e2)
 
 # Q.2.3.2
 
-* 
+* Les types de systemes de stockage utilisés :
+* /dev/mapper/cp3--vg-root : LVM
+* /dev/md0p1 : partition
 
+# Q.2.3.3
+
+* 
 
 
 
