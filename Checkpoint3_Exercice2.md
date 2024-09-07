@@ -30,7 +30,13 @@
 * En root, dans le fichier /etc/ssh/sshd_config.d/local.conf, ajouter les ligne :
 * PasswordAuthentication no
 * ChallengeResponseAuthentication no
+* ![365372246-2e5b984f-8905-44e2-a035-df48df6ebf50](https://github.com/user-attachments/assets/4f525f34-7eba-4f79-a707-652a613dd4e7)
 
+# Partie 3 : Analyse du stockage
+
+# Q.2.3.1 
+
+* Les systemes de fichier montés sont tmpfs. 
 
 
 
