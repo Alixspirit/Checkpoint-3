@@ -65,9 +65,38 @@
 * ![365435421-b9c0c31e-54ae-416b-99a4-b80fb191a26f](https://github.com/user-attachments/assets/b615c3c4-4c7e-4875-a634-4504ed0b8548)
 * Monter le volume logique LVM dans le dossier /var/lib/bareos/storage avec la commande : mount /dev/mvg/LVM /var/lib/bareos/storage.
 * Vérifier que le volume LVM est monté avec la commande : df -h
+* ![365436966-ac671ee5-df90-48de-a76f-8620527a2400](https://github.com/user-attachments/assets/a39b72b8-76a9-4ed4-abc9-c2f23478f244)
+
+# Q.2.3.5
+
+* Il reste 1,8 Go.
+
+# Partie 4 : Sauvegardes
+
+# Q.2.4.1
+
+* Bareos-dir permet la gestion des sauvegardes, des restaurations, des differentes ressources necessaire pour les sauvegardes et restauration, des jobs de sauvegardes et de restauration, des notifications en cas d'erreurs ou de success et des fichiers de configuration. Il communique avec les deamon bareos-sd pour la gestion du stockage,
+bareos-fd pour la gestion des fichiers et bareos-bconsole pour l'interface en ligne de commande.
+* Bareos-sd collecte les données a sauvegarder, assure la sécurité et l'intégrité des données et gere les attributs de fichiers. Il envoie les données collectées a bareos-sd lors de l'initialisation d'un job de sauvegarde et il permet la restauration des données lors d'une restauration.
+* Bareos-fd permet la gestion du stockage des données sauvegardées, des volumes de stockage, de l'espace disponible, des erreurs et des notofications. Il stocke les données de manière fiable et securisée et permet la protection des données sensible en utilisant le chiffrement.
+
+# Partie 5 : Filtrage et analyse réseau
+
+# Q.2.5.1
+
+* Les regles appliquée autorisent les paquets ipv6 contenant l'entete next header de type ipv6-icmp, les paquets ipv4 utilisant le protocole ICMP, le port 22, les paquets entrant sur l'interface reseau lo et les paquets dont l'état de suivi de connexion est marqué comme etablished ou related. Les regles interdisent les paquets dont l'état de suivi de connexion est marqué comme invalid.
+
+# Q.2.5.2
+
+* Les types de communications autorisées sont les ping ipv4 et ipv6, la communication interne entre les processus d'une meme machine, les communications légitimes, les messages de diagnostic et de controle et les connexions ssh.
+
+# Q.2.5.3
+
+* Les types de communications interdites sont les connexions non authorisées et inconnues.
+
+# Q.2.5.4
+
 * 
-
-
 
 
 
