@@ -48,8 +48,9 @@
 
 * Pour ajouter un disque de 8 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 8 Go. Avac la commande lsblk, on peut voir un nouveau disque sdb.
 * ![365376099-3a79a192-85b2-4522-a90f-adfee6f1d5e8](https://github.com/user-attachments/assets/b0ed9d31-488a-4fd0-96b9-97522de6adb9)
-* Pour réparer le volume RAID, partitionner le disque sdb. Créer une partition et modifier son type avec la commande fdisk /dev/sdb. Cette commande ouvre l'utilitaire de partitionnement. Entrer les commandes n pour ajouter une partition, p pour créer une partition primaire, t et FD pour modifier son type en RAID Linux auto.
-* 
+* Partitionner le disque sdb. Créer une partition et modifier son type avec la commande fdisk /dev/sdb. Cette commande ouvre l'utilitaire de partitionnement. Entrer les commandes n pour ajouter une partition, p pour créer une partition primaire, t et FD pour modifier son type en RAID Linux auto.
+* ![365426804-229e607f-58fc-4d61-bdd9-741bd6ed2dc0](https://github.com/user-attachments/assets/2cdf9da5-a24f-4cf6-8515-199d882122b8)
+
 
 
 
