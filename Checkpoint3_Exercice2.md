@@ -105,4 +105,7 @@ bareos-fd pour la gestion des fichiers et bareos-bconsole pour l'interface en li
 # Q.2.6.1
 
 
+* ![365446621-6d141ce3-0957-4b41-aa75-5e3da46235d8](https://github.com/user-attachments/assets/790b494d-c346-4caf-a33d-0a6255695cf6)
+
+
 
