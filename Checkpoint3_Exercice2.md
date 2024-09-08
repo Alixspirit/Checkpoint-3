@@ -63,6 +63,9 @@
 * Donc ajouter un nouveau disque de 2 Go. On peut voir le disque sdd avec la commande lsblk.
 * Créer un volume physique avec la commande : pvcreate /dev/sdd et l'ajouter au groupe de volume mvg avec la commande : vgextend mvg /dev/sdd.
 * Création du systeme de fichier ext4 avec la commande : mkfs -t ext4 /dev/mvg/LVM.
+* ![365435421-b9c0c31e-54ae-416b-99a4-b80fb191a26f](https://github.com/user-attachments/assets/b615c3c4-4c7e-4875-a634-4504ed0b8548)
+* Créer le dossier mnt avec la commande : mkdir mnt et monter le volume logique LVM dans ce dossier avec la commande : mount /dev/mvg/LVM /mnt.
+* Vérifier que le volume LVM est monté avec la commande : df -h
 * 
 
 
