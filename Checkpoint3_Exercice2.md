@@ -97,9 +97,12 @@ bareos-fd pour la gestion des fichiers et bareos-bconsole pour l'interface en li
 
 # Q.2.5.4
 
-* Ajout des règles sur nftables :
+* Ajout des règles autorisant les ports 9101 à 9103 en entrée et en sortie :
+* ![365445421-7af102cf-3b7f-446a-82e3-b4c5fe974ae6](https://github.com/user-attachments/assets/b93daa68-65c5-4ebd-9332-1a6e42a83fab)
 
+# Partie 6 : Analyse de logs
 
+# Q.2.6.1
 
 
 
