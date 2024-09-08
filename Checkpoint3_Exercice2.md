@@ -27,8 +27,7 @@
 # Q.2.2.3
 
 * En root, dans le fichier /etc/ssh/sshd_config.d/local.conf, ajouter les ligne :
-* PasswordAuthentication no
-* ChallengeResponseAuthentication no
+* PasswordAuthentication no et ChallengeResponseAuthentication no
 * ![365372246-2e5b984f-8905-44e2-a035-df48df6ebf50](https://github.com/user-attachments/assets/4f525f34-7eba-4f79-a707-652a613dd4e7)
 
 # Partie 3 : Analyse du stockage
@@ -46,7 +45,7 @@
 
 # Q.2.3.3
 
-* Pour ajouter un disque de 8 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 8 Go. Avac la commande lsblk, on peut voir un nouveau disque sdb.
+* Ajouter un disque de 8 Go. Avac la commande lsblk, on peut voir un nouveau disque sdb.
 * ![365376099-3a79a192-85b2-4522-a90f-adfee6f1d5e8](https://github.com/user-attachments/assets/b0ed9d31-488a-4fd0-96b9-97522de6adb9)
 * Il faut partitionner le disque sdb. En root, créer une partition et modifier son type avec la commande : fdisk /dev/sdb. Cette commande ouvre l'utilitaire de partitionnement. Entrer les commandes n pour ajouter une partition, p pour créer une partition primaire, t et FD pour modifier son type en RAID Linux auto.
 * Pour réparer le volume RAID, ajouter la partition sdb1 avec la commande : mdadm --manage /dev/md0 --add /dev/sdb1.
@@ -66,7 +65,8 @@
 * ![365435421-b9c0c31e-54ae-416b-99a4-b80fb191a26f](https://github.com/user-attachments/assets/b615c3c4-4c7e-4875-a634-4504ed0b8548)
 * Créer le dossier mnt avec la commande : mkdir mnt et monter le volume logique LVM dans ce dossier avec la commande : mount /dev/mvg/LVM /mnt.
 * Vérifier que le volume LVM est monté avec la commande : df -h
-* 
+* ![365436097-3b65d411-460f-4e38-9761-f37042ca3695](https://github.com/user-attachments/assets/b8c58111-da18-426c-8ec9-7d5cc2c3173f)
+
 
 
 
