@@ -57,10 +57,12 @@
 # Q.2.3.4
 
 * Ajouter un disque de 2 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 2 Go. Avac la commande lsblk, on peut voir un nouveau disque sdc.
-* Ajouter un volume physique avec la commande : pvcreate /dev/sdc. Ajouter un groupe de volume avec la commande : vgcreate mvg /dev/sdc.
-* Ajouter un volume logique avec la commande : lvcreate -n LVM -L 2g mvg
-
-* Créer un volume physique avec la commande : pvcreate /dev/sdc. Créer un groupe de volume avec la commande : vgcreate mvg /dev/sdc. 
+* Créer un volume physique avec la commande : pvcreate /dev/sdc. Créer un groupe de volume avec la commande : vgcreate mvg /dev/sdc.
+* Créer un volume logique avec la commande : lvcreate -n LVM -L 2g mvg. Le resultat dit que le volume de groupe a un espace insuffisant.
+* ![365433855-0ca0ee11-1207-4bc2-b546-369c1cd72f05](https://github.com/user-attachments/assets/7edde64f-62be-42f8-b6be-b06f54c43884)
+* Donc ajouter un nouveau disque de 2 Go. On peut voir le disque sdd avec la commande lsblk.
+* Créer un volume physique avec la commande : pvcreate /dev/sdd et l'ajouter au groupe de volume mvg avec la commande : vgextend mvg /dev/sdd.
+* Création du systeme de fichier ext4 avec la commande : mkfs -t ext4 /dev/mvg/LVM.
 * 
 
 
