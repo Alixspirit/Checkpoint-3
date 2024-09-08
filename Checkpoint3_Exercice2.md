@@ -48,7 +48,7 @@
 
 * Pour ajouter un disque de 8 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 8 Go. Avac la commande lsblk, on peut voir un nouveau disque sdb.
 * ![365376099-3a79a192-85b2-4522-a90f-adfee6f1d5e8](https://github.com/user-attachments/assets/b0ed9d31-488a-4fd0-96b9-97522de6adb9)
-* Il faut partitionner le disque sdb. Passer en root avec la commande : su -. Créer une partition et modifier son type avec la commande : fdisk /dev/sdb. Cette commande ouvre l'utilitaire de partitionnement. Entrer les commandes n pour ajouter une partition, p pour créer une partition primaire, t et FD pour modifier son type en RAID Linux auto.
+* Il faut partitionner le disque sdb. En root, créer une partition et modifier son type avec la commande : fdisk /dev/sdb. Cette commande ouvre l'utilitaire de partitionnement. Entrer les commandes n pour ajouter une partition, p pour créer une partition primaire, t et FD pour modifier son type en RAID Linux auto.
 * Pour réparer le volume RAID, ajouter la partition sdb1 avec la commande : mdadm --manage /dev/md0 --add /dev/sdb1.
 * ![365427790-8f6999e2-d2ae-4b78-a208-63a3b92a04d2](https://github.com/user-attachments/assets/efef56c6-fec8-4bd2-962e-6fe1112f8075)
 * Vérifier l'état du RAID avec la commande : mdadm --detail /dev/md0
@@ -56,8 +56,9 @@
 
 # Q.2.3.4
 
-* Ajouter 2 disques de 2 Go car le groupe de volume avait un espace disque insuffisant.
-* Avac la commande lsblk, on peut voir un nouveau disque sdc.
+* Ajouter un disque de 2 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 2 Go. Avac la commande lsblk, on peut voir un nouveau disque sdc.
+* Ajouter un volume physique avec la commande : pvcreate /dev/sdc. Ajouter un groupe de volume avec la commande : vgcreate mvg /dev/sdc.
+* Ajouter un volume logique avec la commande : lvcreate -n LVM -L 2g mvg
 
 * Créer un volume physique avec la commande : pvcreate /dev/sdc. Créer un groupe de volume avec la commande : vgcreate mvg /dev/sdc. 
 * 
