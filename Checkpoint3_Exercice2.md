@@ -52,8 +52,12 @@
 * Pour réparer le volume RAID, ajouter la partition sdb1 avec la commande : mdadm --manage /dev/md0 --add /dev/sdb1.
 * ![365427790-8f6999e2-d2ae-4b78-a208-63a3b92a04d2](https://github.com/user-attachments/assets/efef56c6-fec8-4bd2-962e-6fe1112f8075)
 * Vérifier l'état du RAID avec la commande : mdadm --detail /dev/md0
-* 
+* ![365428040-d3d0efae-0a5f-45cc-af23-0f6f07118ebd](https://github.com/user-attachments/assets/c09d02d5-0925-40bf-b540-b060bf676cbd)
 
+# Q.2.3.4
+
+* Pour ajouter un disque de 2 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 2 Go. Avac la commande lsblk, on peut voir un nouveau disque sd.
+* 
 
 
 
