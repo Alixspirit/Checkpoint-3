@@ -104,7 +104,17 @@ bareos-fd pour la gestion des fichiers et bareos-bconsole pour l'interface en li
 
 # Q.2.6.1
 
-
+* Echec de connexion :
+* 21 Decembre à 14 h 27 min 19
+* 21 Decembre à 14 h 27 min 19
+* 21 Decembre à 14 h 37 min 08
+* 21 Decembre à 14 h 37 min 08
+* 21 Decembre à 14 h 47 min 19
+* 21 Decembre à 14 h 47 min 19
+* 08 Septembre à 13 h 07 min 40
+* 08 Septembre à 13 h 07 min 40
+* 08 Septembre à 13 h 35 min 08
+* 08 Septembre à 13 h 35 min 08
 * ![365446621-6d141ce3-0957-4b41-aa75-5e3da46235d8](https://github.com/user-attachments/assets/790b494d-c346-4caf-a33d-0a6255695cf6)
 
 
