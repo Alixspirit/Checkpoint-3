@@ -47,8 +47,7 @@
 
 * Ajouter un disque de 8 Go. Avac la commande lsblk, on peut voir un nouveau disque sdb.
 * ![365376099-3a79a192-85b2-4522-a90f-adfee6f1d5e8](https://github.com/user-attachments/assets/b0ed9d31-488a-4fd0-96b9-97522de6adb9)
-* Il faut partitionner le disque sdb. En root, créer une partition et modifier son type avec la commande : fdisk /dev/sdb.
-* Pour réparer le volume RAID, ajouter la partition sdb1 avec la commande : mdadm --manage /dev/md0 --add /dev/sdb1.
+* Il faut partitionner le disque sdb. En root, créer une partition et modifier son type avec la commande : fdisk /dev/sdb. Cette commande ouvre l'utilitaire de partitionnement. Entrer les commandes n pour ajouter une nouvelle partition, p pour créer une partition primaire, t et FD pour modifier le type de la partition en RAID Linux auto. Pour réparer le volume RAID, ajouter la partition sdb1 avec la commande : mdadm --manage /dev/md0 --add /dev/sdb1.
 * ![365427790-8f6999e2-d2ae-4b78-a208-63a3b92a04d2](https://github.com/user-attachments/assets/efef56c6-fec8-4bd2-962e-6fe1112f8075)
 * Vérifier l'état du RAID avec la commande : mdadm --detail /dev/md0
 * ![365428040-d3d0efae-0a5f-45cc-af23-0f6f07118ebd](https://github.com/user-attachments/assets/c09d02d5-0925-40bf-b540-b060bf676cbd)
