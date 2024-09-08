@@ -56,7 +56,10 @@
 
 # Q.2.3.4
 
-* Pour ajouter un disque de 2 Go, aller dans Virtualbox, aller dans Configuration dans la VM Checkpoint3-SRVLX01, aller dans Stockage, cliquer sur Controlleur SATA, cliquer sur Ajoute un disque dur et lui donner 2 Go. Avac la commande lsblk, on peut voir un nouveau disque sd.
+* Ajouter 2 disques de 2 Go car le groupe de volume avait un espace disque insuffisant.
+* Avac la commande lsblk, on peut voir un nouveau disque sdc.
+
+* Créer un volume physique avec la commande : pvcreate /dev/sdc. Créer un groupe de volume avec la commande : vgcreate mvg /dev/sdc. 
 * 
 
 
