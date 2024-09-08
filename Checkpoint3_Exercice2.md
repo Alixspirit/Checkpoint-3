@@ -59,14 +59,14 @@
 * Créer un volume physique avec la commande : pvcreate /dev/sdc. Créer un groupe de volume avec la commande : vgcreate mvg /dev/sdc.
 * Créer un volume logique avec la commande : lvcreate -n LVM -L 2g mvg. Le resultat dit que le volume de groupe a un espace insuffisant.
 * ![365433855-0ca0ee11-1207-4bc2-b546-369c1cd72f05](https://github.com/user-attachments/assets/7edde64f-62be-42f8-b6be-b06f54c43884)
-* Donc ajouter un nouveau disque de 2 Go. On peut voir le disque sdd avec la commande lsblk.
+* Ajouter un nouveau disque de 2 Go. On peut voir le disque sdd avec la commande lsblk.
 * Créer un volume physique avec la commande : pvcreate /dev/sdd et l'ajouter au groupe de volume mvg avec la commande : vgextend mvg /dev/sdd.
 * Création du systeme de fichier ext4 avec la commande : mkfs -t ext4 /dev/mvg/LVM.
 * ![365435421-b9c0c31e-54ae-416b-99a4-b80fb191a26f](https://github.com/user-attachments/assets/b615c3c4-4c7e-4875-a634-4504ed0b8548)
 * Créer le dossier mnt avec la commande : mkdir mnt et monter le volume logique LVM dans ce dossier avec la commande : mount /dev/mvg/LVM /mnt.
 * Vérifier que le volume LVM est monté avec la commande : df -h
 * ![365436097-3b65d411-460f-4e38-9761-f37042ca3695](https://github.com/user-attachments/assets/b8c58111-da18-426c-8ec9-7d5cc2c3173f)
-
+* 
 
 
 
