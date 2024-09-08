@@ -85,6 +85,7 @@ bareos-fd pour la gestion des fichiers et bareos-bconsole pour l'interface en li
 # Q.2.5.1
 
 * Les regles appliquée autorisent les paquets ipv6 contenant l'entete next header de type ipv6-icmp, les paquets ipv4 utilisant le protocole ICMP, le port 22, les paquets entrant sur l'interface reseau lo et les paquets dont l'état de suivi de connexion est marqué comme etablished ou related. Les regles interdisent les paquets dont l'état de suivi de connexion est marqué comme invalid.
+* ![365444567-ce398e41-2d03-4e79-bd30-780b1316ebf3](https://github.com/user-attachments/assets/0d3c29b0-f4c7-4dcf-bfea-a8b9462c1ff5)
 
 # Q.2.5.2
 
@@ -96,7 +97,7 @@ bareos-fd pour la gestion des fichiers et bareos-bconsole pour l'interface en li
 
 # Q.2.5.4
 
-* 
+* Ajout des règles sur nftables :
 
 
 
